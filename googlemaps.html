@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Simple Map</title>
+        <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" type="text/css" href="css/styles4.css">
+        <script src="js/iitbasicmap.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="funpage.html">Fun Page</a></li>
+                    <li><a href="googlemaps.html">Google Maps</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id ="wrapper">
+            <div id="map"></div>
+        </div>
+        <script>
+            var map;
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&amp;callback=initMap" defer></script>
+        <button type="button" id="questionbutton">Questions</button>
+    </body>
+</html>
